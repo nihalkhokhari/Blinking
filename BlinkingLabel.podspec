@@ -25,7 +25,7 @@ TODO: This CocoaPod provides the ability to use a UILabel that may be started an
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nihalkhokhari1@gmail.com' => 'nihalk@softcell.com' }
-  s.source           = { :git => 'https://github.com/nihalkhokhari/BlinkingLabel.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/nihalkhokhari/BlinkingLabel.git', :tag => '#{s.version}' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
