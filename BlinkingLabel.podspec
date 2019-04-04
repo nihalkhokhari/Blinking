@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.
                        DESC
 
-  s.homepage         = 'https://github.com/nihalkhokhari1@gmail.com/BlinkingLabel'
+  s.homepage         = 'https://github.com/nihalkhokhari/BlinkingLabel.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nihalkhokhari1@gmail.com' => 'nihalk@softcell.com' }
-  s.source           = { :git => 'https://github.com/nihalkhokhari1@gmail.com/BlinkingLabel.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/nihalkhokhari/BlinkingLabel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -39,4 +39,5 @@ TODO: This CocoaPod provides the ability to use a UILabel that may be started an
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+s.swift_version = "4.2"
 end
