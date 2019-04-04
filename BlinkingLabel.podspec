@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BlinkingLabel'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A subclass on UILabel that provides a blink . '
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: This CocoaPod provides the ability to use a UILabel that may be started an
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nihalkhokhari1@gmail.com' => 'nihalk@softcell.com' }
-  s.source           = { :git => 'https://github.com/nihalkhokhari/BlinkingLabel.git', :tag => '#{s.version}' }
+  s.source           = { :git => 'https://github.com/nihalkhokhari/BlinkingLabel.git', :tag => '0.1.3' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
